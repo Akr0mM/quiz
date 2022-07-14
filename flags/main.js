@@ -1,3 +1,5 @@
+// test github MaximeFM
+
 const score = document.getElementById('score');
 const questionNumber = document.getElementById('question-number');
 const totalQuestions = document.getElementById('total-question-number');
