@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body {
+    background-color: #27292c;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    color: #ccc;
+}
+
+#header-container {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 50px;
+    color: #ccc;
+}
+
+#question-numberT {
+    margin-left: 120px;
+}
+
+#flag-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#flag {
+    height: auto;
+    width: 400px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    width: 40vw;
+    height: 200px;
+}
+
+#responses-container {
+    display: flex;
+    justify-content: center;
+}
+
+.responses {
+    font-size: 1.5rem;
+    background-color: #343434;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+    color: #ccc;
+}
+
+.responses:hover {
+    cursor: pointer;
+}
+
+.response-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
